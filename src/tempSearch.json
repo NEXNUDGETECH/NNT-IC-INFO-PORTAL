@@ -1,0 +1,511 @@
+{
+    "categories": [
+      [
+        "Filter by AI Tags",
+        [
+          {
+            "value": "equality-before-law",
+            "formInput": "what%20is%20constitution+tag:equality-before-law"
+          },
+          {
+            "value": "appeal-high-court < writ-petition-high-court",
+            "formInput": "what%20is%20constitution+tag:appeal-high-court < writ-petition-high-court"
+          },
+          {
+            "value": "protection-of-life-and-liberty",
+            "formInput": "what%20is%20constitution+tag:protection-of-life-and-liberty"
+          },
+          {
+            "value": "appeal-to-supreme-court, power-to-issue-writ",
+            "formInput": "what%20is%20constitution+tag:appeal-to-supreme-court, power-to-issue-writ"
+          },
+          {
+            "value": "criminal-procedure-code",
+            "formInput": "what%20is%20constitution+tag:criminal-procedure-code"
+          },
+          {
+            "value": "equal-opportunity",
+            "formInput": "what%20is%20constitution+tag:equal-opportunity"
+          },
+          {
+            "value": "freedom-with-reasonable-restrictions",
+            "formInput": "what%20is%20constitution+tag:freedom-with-reasonable-restrictions"
+          },
+          {
+            "value": "recruitment-and-conditions-of-service",
+            "formInput": "what%20is%20constitution+tag:recruitment-and-conditions-of-service"
+          },
+          {
+            "value": "special-leave-appeal-by-supreme-court",
+            "formInput": "what%20is%20constitution+tag:special-leave-appeal-by-supreme-court"
+          },
+          {
+            "value": "court-superintendence",
+            "formInput": "what%20is%20constitution+tag:court-superintendence"
+          }
+        ]
+      ],
+      [
+        "Related Queries",
+        [
+          {
+            "value": "article 21",
+            "formInput": "article%2021"
+          },
+          {
+            "value": "article 19",
+            "formInput": "article%2019"
+          },
+          {
+            "value": "article 32",
+            "formInput": "article%2032"
+          },
+          {
+            "value": " discrimination ",
+            "formInput": "%20discrimination%20"
+          },
+          {
+            "value": "judicial review",
+            "formInput": "judicial%20review"
+          },
+          {
+            "value": "ultra vires ",
+            "formInput": "ultra%20vires%20"
+          },
+          {
+            "value": "reservation in  ",
+            "formInput": "reservation%20in%20%20"
+          },
+          {
+            "value": "constitutional validity",
+            "formInput": "constitutional%20validity"
+          },
+          {
+            "value": "scheduled tribe",
+            "formInput": "scheduled%20tribe"
+          },
+          {
+            "value": "human rights",
+            "formInput": "human%20rights"
+          }
+        ]
+      ],
+      [
+        "Document Types",
+        [
+          {
+            "value": "All",
+            "formInput": "what%20is%20constitution",
+            "selected": true
+          },
+          {
+            "value": "Laws",
+            "formInput": "what%20is%20constitution+doctypes:laws"
+          },
+          {
+            "value": "Judgments",
+            "formInput": "what%20is%20constitution+doctypes:judgments"
+          },
+          {
+            "value": "Tribunals",
+            "formInput": "what%20is%20constitution+doctypes:tribunals"
+          },
+          {
+            "value": "Highcourts & Supremecourt",
+            "formInput": "what%20is%20constitution+doctypes:supremecourt,scorders,highcourts"
+          }
+        ]
+      ],
+      [
+        "Courts and Laws",
+        [
+          {
+            "value": "Supreme Court of India",
+            "formInput": "what%20is%20constitution+doctypes:supremecourt",
+            "selected": false
+          },
+          {
+            "value": "Constitution Article",
+            "formInput": "what%20is%20constitution+doctypes:constitution-article",
+            "selected": false
+          },
+          {
+            "value": "Union of India - Section",
+            "formInput": "what%20is%20constitution+doctypes:union-section",
+            "selected": false
+          },
+          {
+            "value": "State of  Tamilnadu- Act",
+            "formInput": "what%20is%20constitution+doctypes:tn-act",
+            "selected": false
+          },
+          {
+            "value": "Delhi High Court",
+            "formInput": "what%20is%20constitution+doctypes:delhi",
+            "selected": false
+          },
+          {
+            "value": "Constitution and Amendments",
+            "formInput": "what%20is%20constitution+doctypes:constitution-amendments",
+            "selected": false
+          },
+          {
+            "value": "State of Karnataka - Act",
+            "formInput": "what%20is%20constitution+doctypes:karnataka-act",
+            "selected": false
+          },
+          {
+            "value": "State of Punjab - Act",
+            "formInput": "what%20is%20constitution+doctypes:punjab-act",
+            "selected": false
+          },
+          {
+            "value": "Punjab-Haryana High Court",
+            "formInput": "what%20is%20constitution+doctypes:punjab",
+            "selected": false
+          },
+          {
+            "value": "Gujarat High Court",
+            "formInput": "what%20is%20constitution+doctypes:gujarat",
+            "selected": false
+          }
+        ]
+      ],
+      [
+        "Authors",
+        [
+          {
+            "value": "Satya Brata Sinha",
+            "formInput": "what%20is%20constitution+authorid:s-b-sinha"
+          },
+          {
+            "value": "Prafullachandra Natwarlal Bhagwati",
+            "formInput": "what%20is%20constitution+authorid:p-n-bhagwati"
+          },
+          {
+            "value": "V R Krishna Iyer",
+            "formInput": "what%20is%20constitution+authorid:v-r-iyer"
+          },
+          {
+            "value": "Ramesh Chandra Lahoti",
+            "formInput": "what%20is%20constitution+authorid:r-c-lahoti"
+          },
+          {
+            "value": "Sabyasachi Mukharji",
+            "formInput": "what%20is%20constitution+authorid:s-mukharji"
+          }
+        ]
+      ],
+      [
+        "Bench",
+        [
+          {
+            "value": "Prafullachandra Natwarlal Bhagwati",
+            "formInput": "what%20is%20constitution+benchid:p-n-bhagwati"
+          },
+          {
+            "value": "Yeshwant Vishnu Chandrachud",
+            "formInput": "what%20is%20constitution+benchid:y-v-chandrachud"
+          },
+          {
+            "value": "Satya Brata Sinha",
+            "formInput": "what%20is%20constitution+benchid:s-b-sinha"
+          },
+          {
+            "value": "V R Krishna Iyer",
+            "formInput": "what%20is%20constitution+benchid:v-r-iyer"
+          },
+          {
+            "value": "Bhuvaneshwar Prasad Sinha",
+            "formInput": "what%20is%20constitution+benchid:b-p-sinha"
+          },
+          {
+            "value": "Kailas Nath Wanchoo",
+            "formInput": "what%20is%20constitution+benchid:k-n-wanchoo"
+          },
+          {
+            "value": "Sabyasachi Mukharji",
+            "formInput": "what%20is%20constitution+benchid:s-mukharji"
+          },
+          {
+            "value": "Bijan Kumar Mukherjea",
+            "formInput": "what%20is%20constitution+benchid:b-k-mukherjea"
+          },
+          {
+            "value": "Jayantilal Chhotalal Shah",
+            "formInput": "what%20is%20constitution+benchid:j-c-shah"
+          },
+          {
+            "value": "Pralhad Balacharya Gajendragadkar",
+            "formInput": "what%20is%20constitution+benchid:p-b-gajendragadkar"
+          }
+        ]
+      ],
+      [
+        "Years",
+        [
+          {
+            "value": "1950",
+            "formInput": "what%20is%20constitution+year:1950"
+          },
+          {
+            "value": "2006",
+            "formInput": "what%20is%20constitution+year:2006"
+          },
+          {
+            "value": "1980",
+            "formInput": "what%20is%20constitution+year:1980"
+          },
+          {
+            "value": "1994",
+            "formInput": "what%20is%20constitution+year:1994"
+          },
+          {
+            "value": "2014",
+            "formInput": "what%20is%20constitution+year:2014"
+          },
+          {
+            "value": "2010",
+            "formInput": "what%20is%20constitution+year:2010"
+          },
+          {
+            "value": "1989",
+            "formInput": "what%20is%20constitution+year:1989"
+          },
+          {
+            "value": "2017",
+            "formInput": "what%20is%20constitution+year:2017"
+          },
+          {
+            "value": "2003",
+            "formInput": "what%20is%20constitution+year:2003"
+          },
+          {
+            "value": "2008",
+            "formInput": "what%20is%20constitution+year:2008"
+          }
+        ]
+      ]
+    ],
+    "docs": [
+      {
+        "tid": 1218090,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 19 in <b>Constitution</b> of India",
+        "numcites": 31,
+        "numcitedby": 22221,
+        "headline": "Article 19 in <b>Constitution</b> of India \n\n  19. Protection of certain rights regarding freedom of speech, etc. \n   (1)    All citizens shall have the right ... freedom of speech and expression;   [ Editorial comment  -The <b>Constitution</b> (First Amendment) Act, 1951, made several changes to the Fundamental Rights Part of the Indian <b>constitution</b>",
+        "docsize": 26591,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      },
+      {
+        "tid": 7148380,
+        "catids": [
+          46,
+          4
+        ],
+        "doctype": 1000,
+        "publishdate": "2022-07-11",
+        "authorid": 1331,
+        "bench": [
+          1331,
+          706
+        ],
+        "title": "Satender Kumar Antil vs Central Bureau Of Investigation on 11 July, 2022",
+        "numcites": 131,
+        "numcitedby": 19037,
+        "headline": "This again is\n\n\n\n                                                   7 \n\fon the touchstone of  Article 21  of the <b>Constitution</b> of India. This court in\n\n Nikesh Tarachand Shah v. Union of India ... Covenant so far as the Fundamental Rights\nChapter of the <b>Constitution</b> is concerned. It deals with nothing less\nsacrosanct than the rights of life",
+        "docsize": 257675,
+        "fragment": true,
+        "docsource": "Supreme Court of India",
+        "author": "M M Sundresh",
+        "authorEncoded": "m-m-sundresh"
+      },
+      {
+        "tid": 981147,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 32 in <b>Constitution</b> of India",
+        "numcites": 19,
+        "numcitedby": 19525,
+        "headline": "Article 32 in <b>Constitution</b> of India \n\n  32. Remedies for enforcement of rights conferred by this Part \n   (1)    The right to move the Supreme Court ... article shall not be suspended except as otherwise provided for by this <b>Constitution</b>.    Editorial Comment  - Article 32 of the Indian <b>Constitution</b> is a fundamental right",
+        "docsize": 17344,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      },
+      {
+        "tid": 609139,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 12 in <b>Constitution</b> of India",
+        "numcites": 9,
+        "numcitedby": 20927,
+        "headline": "Article 12 in <b>Constitution</b> of India \n\n  12. Definition \n  In this part, unless the context otherwise requires, \"the State\" includes the Government and Parliament of India ... Fundamental Rights) and Part 4 (Directive Principles of State Policy) of the <b>Constitution</b> of India.  The meaning of “Other Authorities” under Article",
+        "docsize": 7313,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      },
+      {
+        "tid": 1836974,
+        "catids": null,
+        "doctype": 11,
+        "publishdate": "1860-10-06",
+        "authorid": null,
+        "bench": null,
+        "title": "Section 377 in The Indian Penal Code, 1860",
+        "numcites": 0,
+        "numcitedby": 13536,
+        "headline": "equality under Article 14, and nondiscrimination under Article 15 of the <b>Constitution</b>. Section 377 will continue to apply to non-consensual sexual activity against adults",
+        "docsize": 2081,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 1569253,
+            "title": "Entire Act"
+          }
+        ],
+        "docsource": "Union of India - Section"
+      },
+      {
+        "tid": 1123043,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 309 in <b>Constitution</b> of India",
+        "numcites": 2,
+        "numcitedby": 13610,
+        "headline": "Article 309 in <b>Constitution</b> of India \n\n  309. Recruitment and conditions of service of persons serving the Union or a State \n  Subject to the provisions ... this <b>Constitution</b>, Acts of the appropriate Legislature may regulate the recruitment, and conditions of service of persons appointed, to public services and posts in connection",
+        "docsize": 1171,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      },
+      {
+        "tid": 882644,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 141 in <b>Constitution</b> of India",
+        "numcites": 1,
+        "numcitedby": 10646,
+        "headline": "Article 141 in <b>Constitution</b> of India \n\n  141. Law declared by Supreme Court to be binding on all courts \n  The law declared by the Supreme Court",
+        "docsize": 352,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      },
+      {
+        "tid": 123660783,
+        "catids": [
+          13,
+          2048,
+          46,
+          4,
+          2184
+        ],
+        "doctype": 1000,
+        "publishdate": "2020-01-29",
+        "authorid": 835,
+        "bench": [
+          835
+        ],
+        "title": "Sushila Aggarwal vs State (Nct Of Delhi) on 29 January, 2020",
+        "numcites": 74,
+        "numcitedby": 15728,
+        "headline": "further submitted that in the case of\n\nGurbaksh Singh Sibbia (supra), a <b>Constitution</b> Bench of this Court\n\nhas observed and held that the facility which ... questions are not\n\nres integra in view of the decision of the <b>Constitution</b> Bench of\n\nthis Court in the case of  Gurbaksh Singh Sibbia  (supra",
+        "docsize": 347504,
+        "fragment": true,
+        "docsource": "Supreme Court of India",
+        "author": "M R Shah",
+        "authorEncoded": "m-r-shah",
+        "citation": "AIR 2020 SUPREME COURT 831"
+      },
+      {
+        "tid": 157412304,
+        "catids": null,
+        "doctype": 11,
+        "publishdate": "1989-09-11",
+        "authorid": null,
+        "bench": null,
+        "title": "Section 3 in The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+        "numcites": 0,
+        "numcitedby": 12036,
+        "headline": "other office of a Panchayat under Part IX of the <b>Constitution</b> or a Municipality under Part IXA of the <b>Constitution</b>, from performing their normal duties",
+        "docsize": 21396,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 25085007,
+            "title": "Entire Act"
+          }
+        ],
+        "docsource": "Union of India - Section"
+      },
+      {
+        "tid": 581566,
+        "catids": null,
+        "doctype": 14,
+        "publishdate": "1950-01-26",
+        "authorid": null,
+        "bench": null,
+        "title": "Article 22 in <b>Constitution</b> of India",
+        "numcites": 6,
+        "numcitedby": 15272,
+        "headline": "Article 22 in <b>Constitution</b> of India \n\n  22. Protection against arrest and detention in certain cases \n   (1)    No person who is arrested shall be detained ... clause (a) of clause (4).    Editorial Comment  - Article 22 of the Indian <b>Constitution</b> provides certain safeguards regarding arrests and detentions. It aims to protect",
+        "docsize": 10523,
+        "fragment": false,
+        "covers": [
+          {
+            "tid": 237570,
+            "title": "Constitution"
+          }
+        ],
+        "docsource": "Constitution Article"
+      }
+    ],
+    "found": "11 - 20 of 2148181",
+    "encodedformInput": "what%20is%20constitution"
+  }

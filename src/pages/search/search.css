@@ -1,0 +1,51 @@
+.searchPage > .input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+.searchPage > .input > input {
+  border: 1px solid #ccc;
+  outline: none;
+  width: 70%;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  /* background: blue; */
+}
+.searchPage > .input > button {
+  background: #007bff;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.rejs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0 10px;
+  gap: 20px;
+}
+.rejs > .rej {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rejs > .rej > span:nth-child(1) {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+}
+.rejs > .rej > span:nth-child(2) {
+  font-size: 10px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: gray;
+}

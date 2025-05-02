@@ -1,0 +1,52 @@
+.head {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 0.3px solid lightgray;
+}
+.head > .one,
+.head > .two,
+.head > .three {
+  display: flex;
+  align-items: center;
+}
+.head > .one {
+  margin-left: 20px;
+}
+.head > .one > span {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 200;
+  margin-left: 5px;
+}
+.head > .two {
+  gap: 20px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.head > .three {
+  gap: 10px;
+  margin-right: 20px;
+}
+.head > .three > button {
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .head > .two {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .head > .three > button {
+    width: 60px;
+    font-size: 12px;
+  }
+}
