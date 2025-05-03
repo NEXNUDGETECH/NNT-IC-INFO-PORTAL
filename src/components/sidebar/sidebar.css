@@ -4,8 +4,8 @@
   background: red;
   position: fixed;
   /* top: -100%; */
-  transform: translateY(0);
-  animation: slideOpen 0.5s ease-in forwards;
+  transform: translateY(-100%);
+  /* animation: slideOpen 0.5s ease-in forwards; */
   display: flex;
   flex-direction: column;
   justify-content: center;

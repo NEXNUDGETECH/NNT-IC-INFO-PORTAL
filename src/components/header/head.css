@@ -39,14 +39,24 @@
   border: 1px solid lightgray;
   cursor: pointer;
 }
+.line {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .head > .two {
     display: none;
+
+    .line {
+      display: flex;
+    }
   }
 }
 @media screen and (max-width: 480px) {
   .head > .three > button {
     width: 60px;
     font-size: 12px;
+  }
+  .line {
+    display: flex;
   }
 }

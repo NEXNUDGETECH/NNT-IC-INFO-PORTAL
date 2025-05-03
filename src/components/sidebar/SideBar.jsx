@@ -6,9 +6,12 @@ export const SideBar = ({ menu, toggle }) => {
     <div
       className="sidebar"
       style={{
-        animation: menu
-          ? "slideOpen 0.5s forwards"
-          : "slideClose 0.5s forwards",
+        animation:
+          menu == "initial"
+            ? ""
+            : menu == "open"
+            ? "slideOpen 0.5s forwards"
+            : "slideClose 0.5s forwards",
       }}
     >
       <div>
