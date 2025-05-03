@@ -6,12 +6,14 @@ export const Docs = () => {
   return (
     <div className="docs">
       <Head />
-      <div
-        className="show"
-        dangerouslySetInnerHTML={{
-          __html: data.doc,
-        }}
-      ></div>
+      <div className="show">
+        <iframe
+          srcDoc={data.doc}
+          className="web"
+          frameBorder={0}
+          title={data.tid}
+        />
+      </div>
     </div>
   );
 };

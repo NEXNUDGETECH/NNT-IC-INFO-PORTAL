@@ -34,19 +34,9 @@ export const Search = () => {
       <div className="rejs">
         {data.docs.map((items, index) => (
           <div className="rej" key={index} onClick={() => natigate(items)}>
-            <span
-              className="title"
-              dangerouslySetInnerHTML={{
-                __html: items.title,
-              }}
-            ></span>
+            <span className="title">{items.title}</span>
 
-            <span
-              className="desc"
-              dangerouslySetInnerHTML={{
-                __html: items.headline,
-              }}
-            ></span>
+            <span className="desc">{items.headline}</span>
           </div>
         ))}
       </div>
