@@ -1,15 +1,140 @@
+/* Header container */
 .head {
+  width: 100%;
   height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #1f2937; /* dark gray/navy */
+  background: #1f2937; /* Dark gray/navy */
   color: #fff;
   padding: 0 24px;
+  box-sizing: border-box;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 1000;
+}
+
+/* Left section: Logo */
+.head-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 24px;
+  color: #60a5fa; /* Light blue for the icon */
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Right section: Buttons and menu */
+.head-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Login button */
+.login-button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #60a5fa;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background: #60a5fa;
+  color: #fff;
+}
+
+/* Sign Up button */
+.signup-button {
+  background: #60a5fa;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+  background: #3b82f6;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  height: 2px;
+  background: #fff;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 64px;
+  right: 24px;
+  background: #1f2937;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background: #3b82f6;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .head-right {
+    gap: 8px;
+  }
+
+  .login-button,
+  .signup-button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
 }
 
 .head .one,

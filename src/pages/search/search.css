@@ -22,22 +22,97 @@
   box-sizing: border-box;
 }
 
-/* Header styling */
+/* Header styling (copied from home.css) */
 .head {
-  width: 100%; /* Ensure the header spans the full width */
+  width: 100%;
   height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #1f2937; /* Dark gray/navy */
   color: #fff;
-  padding: 0 24px; /* Adjust padding as needed */
-  box-sizing: border-box; /* Include padding in width calculation */
+  padding: 0 24px;
+  box-sizing: border-box;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: sticky; /* Keep the header fixed at the top */
+  position: sticky;
   top: 0;
   z-index: 1000;
-  margin: 0; /* Remove any unwanted margins */
+}
+
+/* Left section: Logo */
+.head-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 24px;
+  color: #60a5fa; /* Light blue for the icon */
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Right section: Buttons and menu */
+.head-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Login button */
+.login-button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #60a5fa;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background: #60a5fa;
+  color: #fff;
+}
+
+/* Sign Up button */
+.signup-button {
+  background: #60a5fa;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+  background: #3b82f6;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  height: 2px;
+  background: #fff;
+  border-radius: 1px;
+  transition: all 0.3s ease;
 }
 
 /* Search container */
@@ -56,16 +131,24 @@
 .search-input {
   flex: 1;
   padding: 12px 16px;
-  border: 2px solid #d1d5db;
-  border-radius: 8px;
+  border: 2px solid #d1d5db; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
   font-size: 16px;
+  color: #1f2937; /* Dark text color */
+  background-color: #f9fafb; /* Light background */
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
 }
 
 .search-input:focus {
-  outline: none;
-  border-color: #2563eb;
-  box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+  border-color: #2563eb; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.3); /* Subtle blue glow */
+  background-color: #ffffff; /* White background on focus */
+}
+
+.search-input::placeholder {
+  color: #9ca3af; /* Gray placeholder text */
+  font-style: italic; /* Italic placeholder text */
 }
 
 .search-button {
