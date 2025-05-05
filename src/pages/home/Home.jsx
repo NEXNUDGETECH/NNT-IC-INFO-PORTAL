@@ -1,8 +1,11 @@
 import React, { useRef, useState } from "react";
 import { Head } from "../../components/header/Head";
 import "./home.css";
-import { Card } from "./Card";
 import { useNavigate } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
+import LawBlogCard from "./Card";
+let tempImg =
+  "https://media.istockphoto.com/id/1329704926/photo/concept-of-indian-justice-system-showing-by-using-judge-gavel-balance-scale-on-indian-flag-as.jpg?s=612x612&w=0&k=20&c=-E8skqunh-qSszI0etp8-56tp6HfUecFndPAIb5ezoA=";
 export const Home = () => {
   const [value, setValue] = useState("");
   let inputRef = useRef();
@@ -28,17 +31,104 @@ export const Home = () => {
         />
       </div>
       <div className="cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
+
+        <LawBlogCard
+          author={"John Doe"}
+          date={"2023-10-01"}
+          imageSrc={tempImg}
+          title={"Understanding the Indian Constitution"}
+          tags={["Constitution", "Law", "India"]}
+        />
       </div>
+
+      <Footer />
     </div>
   );
 };

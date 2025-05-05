@@ -19,7 +19,7 @@ export const Head = () => {
       <SideBar menu={menu} toggle={toggle} />
       <div className="one" onClick={() => location("/")}>
         <GoLaw size={20} />
-        <span>nex nudge</span>
+        <span>nn ic info</span>
       </div>
 
       <div className="two">

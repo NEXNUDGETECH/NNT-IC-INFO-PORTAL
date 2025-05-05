@@ -1,52 +1,60 @@
 .sidebar {
-  height: 30%;
-  width: 100vw;
-  background: red;
   position: fixed;
-  /* top: -100%; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(17, 24, 39, 0.95); /* Dark blue glassy */
+  color: white;
+  z-index: 1000;
   transform: translateY(-100%);
-  /* animation: slideOpen 0.5s ease-in forwards; */
+  transition: transform 0.4s ease-in-out;
+  backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  z-index: 1000;
-  gap: 1rem;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.sidebar > span {
-  cursor: pointer;
-}
-.sidebar > div {
-  align-self: flex-end;
-  position: relative;
-  cursor: pointer;
-}
-.sidebar-close {
-  position: absolute;
-  right: 35px;
-  top: -35px;
-}
-@keyframes slideOpen {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(40%);
-  }
 }
 
-@keyframes slideClose {
-  from {
-    transform: translateY(40%);
-  }
-  to {
-    transform: translateY(-100%);
+.sidebar.show {
+  transform: translateY(0%);
+}
+
+/* Close button wrapper */
+.sidebar-close-wrapper {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+/* Centered content */
+.sidebar-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sidebar-content span {
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sidebar-content span:hover {
+  color: #60a5fa;
+}
+
+/* Prevent body scroll */
+.no-scroll {
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .sidebar-content span {
+    font-size: 1.1rem;
   }
 }

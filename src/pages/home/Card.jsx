@@ -1,25 +1,26 @@
-import React from "react";
 import "./card.css";
-export const Card = () => {
+const LawBlogCard = ({ imageSrc, title, author, date, tags }) => {
   return (
-    <div className="card">
-      <div className="card-img">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRTWvrP8mIHnENF8kwwUytm0g53z-r5Jko4A&s"
-          alt=""
-        />
-      </div>
-      <div className="card-title">
-        <span>how case on court?</span>
-      </div>
-      <div className="card-desc">
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet id
-          enim rem doloribus autem eligendi quasi sunt tempore, consectetur
-          magni unde provident asperiores laudantium distinctio quas nisi
-          incidunt quod assumenda esse placeat dicta! Iure?
-        </span>
+    <div className="hero-blog-card">
+      <div className="hero-image-container">
+        <img src={imageSrc} alt={title} className="hero-image" />
+        <div className="hero-overlay">
+          <h2 className="hero-title">{title}</h2>
+          <div className="hero-meta">
+            <span>{author}</span>
+            <span className="dot">•</span>
+            <span>{date}</span>
+            <span className="dot">•</span>
+            {tags.map((tag, i) => (
+              <span key={i} className="tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+
+export default LawBlogCard;

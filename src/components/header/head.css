@@ -1,62 +1,97 @@
 .head {
-  height: 50px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  border-bottom: 0.3px solid lightgray;
+  background: #1f2937; /* dark gray/navy */
+  color: #fff;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-.head > .one,
-.head > .two,
-.head > .three {
+
+.head .one,
+.head .two,
+.head .three {
   display: flex;
   align-items: center;
 }
-.head > .one {
-  margin-left: 20px;
-}
-.head > .one > span {
-  font-size: 20px;
-  text-transform: capitalize;
-  font-weight: 200;
-  margin-left: 5px;
-}
-.head > .two {
-  gap: 20px;
-  font-weight: 300;
-  font-size: 16px;
-}
-.head > .three {
-  gap: 10px;
-  margin-right: 20px;
-}
-.head > .three > button {
-  border: none;
-  height: 30px;
-  width: 80px;
-  border-radius: 8px;
-  background-color: transparent;
-  border: 1px solid lightgray;
+
+.head .one {
   cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  gap: 8px;
 }
+
+.head .one span {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.head .two {
+  gap: 24px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.head .two div {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.head .two div:hover {
+  color: #60a5fa; /* light blue highlight */
+}
+
+.head .three {
+  gap: 12px;
+  align-items: center;
+}
+
+.head .three button {
+  border: 1px solid #ffffff40;
+  background-color: transparent;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.head .three button:hover {
+  background-color: white;
+  color: #1f2937;
+}
+
 .line {
   display: none;
+  cursor: pointer;
+  margin-left: 12px;
 }
-@media screen and (max-width: 768px) {
-  .head > .two {
-    display: none;
 
-    .line {
-      display: flex;
-    }
+/* Responsive Rules */
+@media screen and (max-width: 900px) {
+  .head .two {
+    display: none;
+  }
+
+  .line {
+    display: block;
   }
 }
-@media screen and (max-width: 480px) {
-  .head > .three > button {
-    width: 60px;
-    font-size: 12px;
+
+@media screen and (max-width: 500px) {
+  .head .three button {
+    padding: 6px 12px;
+    font-size: 13px;
   }
-  .line {
-    display: flex;
+
+  .head {
+    padding: 0 16px;
   }
 }
