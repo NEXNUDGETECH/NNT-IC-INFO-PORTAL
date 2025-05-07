@@ -1,14 +1,42 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./search.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { Head } from "../../components/header/Head";
 import data from "../../tempSearch.json";
+import axios from "axios";
 
 export const Search = () => {
   let { id } = useParams();
   const [value, setValue] = useState(id || "");
+  const [arrticle, setArrticle] = useState([]);
   let inputRef = useRef();
   let location = useNavigate();
+  const [count, setCount] = useState(1);
+  let uri = `https://api.indiankanoon.org/search/?formInput=${value}&pagenum=${count}`;
+  let fetchData = async () => {
+    try {
+      let fetchData = await fetch(uri, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          Authorization: `Token ${process.env.REACT_APP_API_KEY}`,
+        },
+      });
+      let data = await fetchData.json();
+      setArrticle(data);
+      console.log(data);
+    } catch (error) {
+      alert("Error fetching data");
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    if (value) {
+      fetchData();
+    }
+  }, []);
 
   const navigateToDoc = (item) => {
     location(`/doc/${item.tid}`);

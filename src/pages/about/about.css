@@ -1,0 +1,92 @@
+/* General page layout */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #f9fafb; /* Light background */
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header section */
+.about-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 16px;
+  color: #4b5563; /* Secondary text color */
+  margin-bottom: 20px;
+}
+
+/* Content section */
+.about-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #4b5563; /* Secondary text color */
+  line-height: 1.8;
+}
+
+/* Team section */
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937; /* Dark text color */
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #4b5563; /* Secondary text color */
+}

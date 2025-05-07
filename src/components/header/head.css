@@ -33,6 +33,30 @@
   color: #fff;
 }
 
+/* Center section: Navigation links */
+.head-center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-links span {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links span:hover {
+  color: #60a5fa; /* Light blue highlight */
+}
+
 /* Right section: Buttons and menu */
 .head-right {
   display: flex;
@@ -75,7 +99,7 @@
 
 /* Hamburger menu icon */
 .menu-icon {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 20px;
@@ -91,49 +115,49 @@
   transition: all 0.3s ease;
 }
 
-/* Dropdown menu */
-.dropdown-menu {
-  position: absolute;
-  top: 64px;
-  right: 24px;
-  background: #1f2937;
-  color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 12px;
+/* Mobile menu */
+.nav-links.open {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  background: #1f2937;
+  padding: 16px;
+  gap: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
 
-.dropdown-menu a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: background 0.3s ease;
-}
-
-.dropdown-menu a:hover {
-  background: #3b82f6;
+.nav-links.open a {
+  font-size: 16px;
 }
 
 /* Responsive design */
-@media screen and (max-width: 768px) {
-  .head-right {
-    gap: 8px;
+@media screen and (max-width: 900px) {
+  .head-center {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .head {
+    padding: 0 16px;
   }
 
   .login-button,
   .signup-button {
     font-size: 12px;
     padding: 4px 8px;
-  }
-
-  .menu-icon {
-    display: flex;
   }
 }
 

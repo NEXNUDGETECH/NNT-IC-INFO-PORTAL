@@ -30,6 +30,15 @@
   border-color: #2563eb;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* background: red;s */
+  gap: 10px;
+  /* align-items: center;
+   */
+  justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
   .search {

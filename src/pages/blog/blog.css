@@ -1,0 +1,39 @@
+.markdown-container {
+  max-width: 98%;
+  margin: 1rem auto;
+  /* align-self: center; */
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.markdown-container img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3 {
+  color: #111;
+  margin-top: 1.5rem;
+}
+
+.markdown-container p {
+  color: #333;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.markdown-container em {
+  color: #555;
+}
+
+.markdown-container hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #eee;
+}

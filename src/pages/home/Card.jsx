@@ -1,7 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import "./card.css";
 const LawBlogCard = ({ imageSrc, title, author, date, tags }) => {
+  let location = useNavigate();
+  const handleClick = () => {
+    location("/blog/1");
+  };
   return (
-    <div className="hero-blog-card">
+    <div className="hero-blog-card" onClick={handleClick}>
       <div className="hero-image-container">
         <img src={imageSrc} alt={title} className="hero-image" />
         <div className="hero-overlay">

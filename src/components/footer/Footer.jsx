@@ -9,7 +9,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Indian Law Search Engine</h3>
+          <h3>IC INFO PORTAL</h3>
+          <h5>Powered by NEX NUDGE Tech</h5>
           <p>Making legal information accessible to everyone</p>
         </div>
 
@@ -53,11 +54,11 @@ const Footer = () => {
           <h4>Connect With Us</h4>
           <div className="social-links">
             <a
-              href="https://twitter.com"
+              href="nexnudge@zohomail.in"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter
+              Email
             </a>
             <a
               href="https://linkedin.com"
@@ -71,7 +72,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Facebook
+              Instagram
             </a>
           </div>
         </div>
@@ -79,7 +80,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>
-          &copy; {currentYear} Indian Law Search Engine. All rights reserved.
+          &copy; {currentYear} NEX NUDGE Tech PVT. LTD. All rights reserved.
         </p>
         <div className="footer-bottom-links">
           <Link to="/privacy">Privacy Policy</Link>
